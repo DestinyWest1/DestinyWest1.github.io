@@ -8,7 +8,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/thumbnail-img-302-96x128.jpg" type="image/x-icon">
   <meta name="description" content="">
-  
+  </Style> 
+	.Simbasfavoritethings {
+            background-color: blue;
+      }
+</Style>
+		<script language="javascript">
+            function makeChange() {
+				thingtochange = document.getElementById("simba");
+				thingtochange.className = "SimbasFavoritethings";
+				
+			}
+			
+			function changeBack() {		
+				thingtochange = document.getElementById("simba");
+                                thingtochange.innerHTML = "stuff"
+			}
+        </script>
+	</head>
+	<body class="white">
+		<p id="Simba"></p>
+		<h1 onmouseover="javascript:makeChange()">Simba's Favorite Things</h1>
+		<p id="Simba" class="blue">
+                <button onclick="javascript:makeChange()">Click Here</button>
+                <button onclick=javascrpti:makeChange()">Undo Here</button>
+	</body>
+</html>
   
   <title>Home</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
