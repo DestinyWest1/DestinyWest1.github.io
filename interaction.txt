@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="utf-8" />
+		<title>Simba</title>
+		<link rel="stylesheet" href="style.css">
+</Style> 
+	.Simbasfavoritethings {
+            background-color: blue;
+      }
+</Style>
+		<script language="javascript">
+            function makeChange() {
+				thingtochange = document.getElementById("simba");
+				thingtochange.className = "SimbasFavoritethings";
+				
+			}
+			
+			function changeBack() {		
+				document.body.className = "white";
+				poem.className = "pink";
+				heading = document.getElementById("heading");
+				heading.innerHTML = "";
+			}
+        </script>
+	</head>
+	<body class="white">
+		<p id="Simba"></p>
+		<h1 onmouseover="javascript:makeChange()">Simba's Favorite Things</h1>
+		<p id="Simba" class="blue">
+	</body>
+</html>
