@@ -11,12 +11,13 @@
   <Style> 
 	.SimbasFavoritethings {
             background-color: blue;
-	    font-size: 3em;
+	    font-size: 5em;
+	    font-weight: bold;
+	    font-family: courierNew;
       }
 </Style>
 		<script language="javascript">
             function makeChange() {
-		    alert ("Stop that!");
 				thingtochange = document.getElementById("simba");
 				thingtochange.className = "SimbasFavoritethings";
 				
@@ -31,7 +32,7 @@
 	</head>
 	<body class="white">
 		<p style=margin-top:7em;" id="simba">
-		<h1 onmouseover="javascript:makeChange()">Simba's Favorite Things</h1>
+		<h1 onmouseover="javascript:makeChange()" onmouseout="javascript:changeBack()">Simba's Favorite Things</h1>
 		
                 <button onclick="javascript:makeChange()">Click Here</button>
                 <button onclick="javascript:changeBack()">Undo Here</button>
